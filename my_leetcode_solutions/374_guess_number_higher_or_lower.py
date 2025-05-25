@@ -5,6 +5,9 @@
 #          otherwise return 0
 # def guess(num):
 
+def guess(num):
+    pass
+
 class Solution(object):
     def guessNumber(self, n):
         """
