@@ -27,3 +27,10 @@ def insert_at_beginning(head, tail, val):
 
 head, tail = insert_at_beginning(head, tail, 3)
 display(head)
+
+def insert_at_end(head, tail, val):
+   new_node = DoublyNode(val, prev=tail)
+   tail.next = new_node
+   return head, new_node 
+head, tail = insert_at_end(head, tail, 100)
+display(head)
